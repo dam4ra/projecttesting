@@ -1,7 +1,13 @@
 h1 {
     color: rosybrown;
+    padding: 30px;
 }
 
 p {
     color: darkred;
+    margin-left: 15px;
+}
+
+body {
+    background-color: aliceblue;
 }
