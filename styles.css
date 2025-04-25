@@ -1,3 +1,5 @@
+/* setting up non default font */
+
 @font-face {
     font-family: 'Futura';
     src:url(fonts/Futura.ttc) format(truetype);
@@ -7,6 +9,7 @@
 
 
 h1 {
+    font-weight: bolder;
     color: rosybrown;
     padding: 30px;
 }
@@ -24,5 +27,38 @@ body {
     flex-direction:column;
     font-family: 'Futura', Arial, Helvetica, sans-serif;
     font: 'Futura';
-    
+
+}
+
+img { 
+
+}
+
+.story-container {
+    padding: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 900px;
+
+}
+
+.story-image {
+    width: 80%;
+    max-height: 200px;
+    object-fit: contain;
+    display: block;
+    margin: 40px auto 60px;
+    border-radius: 14px;
+  }
+  
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width 100%;
+    background-color: khaki;
+    text-align: left;
 }
